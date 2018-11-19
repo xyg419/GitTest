@@ -1,0 +1,128 @@
+
+/*注册界面左侧*/
+.zhuce{
+    width: 1100px;
+    height: 542px;
+    margin: 70px auto;
+    
+    padding-top: 58px;
+}
+.zhuce .l_left{
+    width: 385px;
+    height: 600px;  
+    float: left;
+    border-right: 2px solid #ebebeb;
+    padding-right: 162px;
+   
+}
+.zhuce .l_left h2{
+    height: 40px;
+    text-align: center;
+    border-bottom: 3px solid black; 
+    margin-bottom: 20px;
+}
+
+.zhuce #username{
+    display: block;
+    height: 40px;
+    width: 372px;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.zhuce #password{
+    display: block;
+    height: 40px;
+    width: 372px;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.zhuce .label {
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+.zhuce form .s1{
+    color: red;
+    display: none;
+}
+.zhuce form .s2{
+    color: red;
+    display: none;
+}
+.zhuce .label input{
+    width: 25px;
+    height: 25px;
+}
+.zhuce .label .reme{
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.zhuce #zc{
+    width: 382px;
+    border: none;
+    background: #0286cd;
+    color: white;
+    height: 43px;
+    font-size: 18px;
+    line-height: 43px;
+    letter-spacing: 20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    
+}
+.zhuce .l_left p{
+    height: 30px;
+    border-bottom: 1px dashed #c8cbcc;
+    font-size: 12px;
+}
+.zhuce .qt_zc{
+    width: 100%;
+    height: 110px;
+    margin-top: 10px;
+     font-size: 12px;
+}
+.zhuce .qt_dl i{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url(/images/icon.png) no-repeat;
+    margin-top: 10px;
+}
+
+.zhuce .qt_dl .wx{
+    background-position: -776px -266px;
+}
+.zhuce .qt_dl .qq{
+    background-position: -839px -266px;
+}
+.zhuce .qt_dl .wb{
+    background-position: -957px -266px;
+}
+
+
+.zhuce .qt_dl span{
+    display: block;
+    font-size: 12px;
+}
+/*右侧*/
+.zhuce .z_right{
+    width: 480px;
+    padding-left: 70px;
+    height: 100%;
+    float: left;
+}
+.zhuce .z_right h4{
+    height: 50px;
+}
+.zhuce .z_right ul{
+    margin-top: 50px;
+}
+.zhuce .z_right ul li{
+    line-height: 30px;
+    font-size: 14px;
+    margin-left: 20px;
+}

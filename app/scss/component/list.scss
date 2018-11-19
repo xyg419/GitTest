@@ -1,0 +1,148 @@
+
+.myf{
+    width: 100%;
+    height: 40px;
+    margin-top: 100px;  
+    margin-bottom: 20px;
+    ul{
+        width: 800px;
+        height: 40px;
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: 40px;
+        li{
+            width: 250px;
+            float: left;
+            margin-right: 10px;
+        }
+    } 
+}
+.go_back{
+    width: 1200px;
+    height: 34px;
+    margin: 0 auto;
+    font-size: 12px;
+    letter-spacing: 1px;
+    a{
+        color: #000000;
+    }
+}
+.big_select{
+    width: 1200px;
+    min-height: 1200px;
+    margin: 0 auto;
+    
+    box-sizing: border-box;
+    
+    .select_left{
+        width: 230px;
+        min-height: 900px;       
+        float: left;
+        h4{
+            height: 50px;
+            margin-left: 5px;
+            line-height: 50px;
+            border-bottom: 1px dashed #c8cbcc;
+        }
+        .xuanze{
+            background: #ebebeb;
+            min-height: 160px;
+            width: 225px;
+            padding-left: 5px;          
+            p{  
+                margin-top: 20px;
+                font-size: 12px;
+                height: 20px;
+            }
+            span{
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                background: white;
+                text-align: center;
+                line-height: 20px;
+                font-size: 16px;
+                cursor: pointer;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+.big_select .select_left .sex{
+    width: 225px;
+    margin-left: 5px;
+    height: 205px;
+    border-bottom: 1px dashed #c8cbcc;
+    p{  
+        line-height: 50px;
+        height: 50px;
+        span{
+            font-size: 20px;
+            float:right;
+        }
+    }
+    div{
+        height: 35px;
+    }
+    input{
+        margin-right: 10px;
+    }
+}
+.big_select .sel_right{
+    width: 940px;
+    min-height: 1200px;
+    margin-left: 15px;
+    float: left;
+
+    .name{
+        font-size: 12px;
+        color: #888888;
+    }
+    .price{
+        
+    }
+    .sel_top{
+        height: 50px;
+        width: 100%;
+        select{
+            width: 150px;
+            height: 20px;
+        }
+    }
+}
+#porList{
+    width: 940px;
+    margin-right: 6px;
+   
+    li{
+        width: 227px; 
+        height: 350px;
+        border-bottom: 10px;
+        font-size: 12px;
+        float: left;
+        
+         img{
+            width:100%;
+            height: 227px;   
+            
+        }
+        div{
+            height: 80px;
+            border-top: 1px dashed #c8cbcc;
+            margin-top: 35px;
+            .ss3{
+                margin-top: 10px;
+                font-size: 12px;
+                display: block;
+                height: 40px;
+            }
+            .ss2{
+                font-size: 14px;
+                display: block;
+                height: 20px;
+                color: #888888;
+                font-size: 12px;
+            }
+        }
+    }
+}

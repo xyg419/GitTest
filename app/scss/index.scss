@@ -1,0 +1,19 @@
+@import url("component/header.scss");
+@import url("component/list.scss");
+@import url("component/lunbo.scss");
+@import url("component/footer.scss");
+@import url("component/swiper.scss");
+*{
+	margin: 0;
+	padding: 0;
+}
+li{list-style: none;}
+a{text-decoration: none;color: white;}
+body{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+

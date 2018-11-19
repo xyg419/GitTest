@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="/css/index.css"/>
+		<link rel="stylesheet" href="/css/component/list.css" />
+	
+		<script type="text/javascript" src="/libs/jquery/jquery-1.11.3.js" ></script>
+		<title></title>
+	</head>
+	<body>
+		<header></header>
+		<div class="myf">
+			<ul>
+				<li>全场免运费</li>
+				<li>尊享当日达、次日达、次晨达</li>
+				<li>注册会员货到付款</li>
+			</ul>
+		</div>
+		<div class="go_back">
+			<a href="/index.html">返回首页</a>
+			<span>/品牌/originals/鞋类</span>
+		</div>
+		<div class="big_select">
+			<div class="select_left">
+				<div class="xuanze">
+					<h4>您的选择：</h4>
+					<p><span>X</span>产品分类：鞋类</p>
+					<p><span>X</span>品牌：ORIGINALS</p>
+				</div>
+				<h4>筛选条件</h4>
+				<div class="sex">
+					<p>性别 <span>^</span></p>
+					<div><input type="checkbox" name="sex"/>男子</div>
+					<div><input type="checkbox" name="sex" />女子</div>
+					<div><input type="checkbox" name="sex" />男童</div>
+					<div><input type="checkbox" name="sex" />女童</div>
+				</div>
+				<h4>年龄段</h4>
+				<div class="sex">
+					<p>性别 <span>^</span></p>
+					<div><input type="checkbox" name="age"/>小童(4-8岁)</div>
+					<div><input type="checkbox" name="age" />大童(8-14岁)</div>
+					<div><input type="checkbox" name="age" />婴童(0-4岁)</div>
+					<div><input type="checkbox" name="age" />青年(14-18岁)</div>
+				</div>
+					<h4>鞋类</h4>
+				<div class="sex">
+					<p>性别 <span>^</span></p>
+					<div><input type="checkbox" name="foot"/>运动鞋</div>
+					<div><input type="checkbox" name="foot" />篮球鞋</div>
+					<div><input type="checkbox" name="foot" />足球鞋</div>
+					<div><input type="checkbox" name="foot" />跑鞋</div>
+				</div>
+			</div>
+			<div class="sel_right">
+				<div class="sel_top">
+					<select>
+						<option value="请选择排序方式">请选择排序方式</option>
+						<option value="价格">价格</option>
+						<option value="评价">评价</option>
+						<option value="销售量">销售量</option>
+						
+					</select>
+				</div>
+				<!--<ul class="liebiao">
+					<li class="l_list" id="l_list">
+					<a href="/html/component/xiangqing.html"><img src="/images/index20.jpg" /></a>	
+						<div>
+							<span  class="ss3" id="ss3">adidas by Alexander Wang SKATE SUPER 经典鞋</span>
+							<span class="ss2" id="ss2">中性 ORIGINALS </span>
+							<p id="rmb">￥1799</p>
+						</div>
+						
+					</li>
+				</ul>-->
+				<div id="products">
+				<ul id="proList"></ul>
+					<script type="text/html" id="pro-template">
+					{{each products item i}}
+						<div style="width: 200px;background: #ccc;float: left;margin-left: 20px;background: url({{item.src}})">
+							<div class="pic"><img src="{{ item.img }}" alt=""></div>
+							<p class="price">{{ item.price }}</p>
+							<p class="name">{{ item.name }}</p>
+							<a href="/html/component/xiangqing.html" style="color: black; font-size: 12px;">查看详情</a>
+						</div>
+					{{/each}}
+		
+					</script>
+	</div>	
+			</div>
+		</div>
+		
+		<footer></footer>
+	</body>
+	<script src="/libs/require/require.js" type="text/javascript" data-main="/js/list.js"></script>
+</html>

@@ -1,0 +1,49 @@
+/*购物车左上侧大div*/
+.shopping_cart{
+    width: 950px;
+    height: 720px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 130px;
+    .shop_left{
+        width: 650px;
+        height: 360px;
+        p{
+            height: 42px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 42px;
+            background: #f9f9f9;
+            margin-bottom: 25px;
+        }
+        h3{
+            font-size: 24px;
+            line-height: 24px;
+            span{
+                font-size: 14px;
+                color: #888888;
+                margin-left: 5px;
+            }
+        }
+        a{
+            color: blue;
+            font-size: 18px;
+           float: right;
+        }
+    }
+}
+/*购物车全选div，位于shop_left里*/
+.cart_qx{
+    width: 640px;
+    height: 24px;
+    margin:10px 0 10px 10px;
+    .qx{
+        width: 22px;
+        height: 22px;
+    }
+}
+/*购物车右上侧大div*/
+.shop_right{
+    width: 280px;
+    height: 280px;
+}
